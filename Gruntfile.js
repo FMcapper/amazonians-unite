@@ -19,7 +19,8 @@ module.exports = function(grunt) {
           outputStyle: 'compressed'
         },
         files: {
-          './dist/css/style.css': './src/scss/bootstrap_variables.scss'
+          './dist/css/style.css': './src/scss/bootstrap_variables.scss',
+          './dist/css/audiostyles.css': './src/scss/audiostyles.scss'
         }
       }
     },
