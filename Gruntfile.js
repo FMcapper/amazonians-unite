@@ -56,7 +56,7 @@ module.exports = function(grunt) {
               ]            
             },
                         {
-              family: 'LibreFranklin',
+              family: 'Libre Franklin',
               styles: [
                 400, 600
               ]            

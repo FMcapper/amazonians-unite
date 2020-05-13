@@ -141,7 +141,6 @@
 
         </div><!-- end row -->
 
-
         <div class="row mt-10">
 
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -194,17 +193,14 @@
           })
           .onStepEnter(response => {
 
-
-            // { element, index, direction }
-
-            //Hide all maps initially
-            // $(response.element)
-            //   .parents('.row')
-            //   .find('[data-sticky-graphic]')
-            //   .addClass('d-none');
+            // response = scrollama obj
+            // response.element = html element
+            // $(response.element) = jQuery representation
 
             //save the name of the current element from data-stick-show attribute
             let currentElement = $(response.element).data('sticky-show');
+            // currentElement = map-1
+            console.log("currentElement", currentElement);
 
             $('[data-sticky-graphic]').each(function(idx, elm){
               if($(elm).data('sticky-graphic') !== currentElement){

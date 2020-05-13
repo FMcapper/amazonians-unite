@@ -7,7 +7,9 @@
     display: table;
 }
 
-/*h1 {fffe8c}*/
+h1 {
+	font-family: 'Libre Franklin'
+}
 
 /** Looping Background Video **/
 
