@@ -7,36 +7,75 @@
     display: table;
 }
 
+/*h1 {fffe8c}*/
 
 /** Looping Background Video **/
 
 .looping-background-video{
 	position: relative;
-	top: 0;
+	top: 200;
 	left: 0;
 	width: 100vw;
-	height: 100vh;
+	height: 58vw;
 	overflow: hidden;
-	background-color: rgba(0,0,0,0.6); 	/* shade over video for foreground-background separation */
-	color: #fff; 						/* make text color white */
+	background-color: rgba(0,0,0,0.6); 	 /*shade over video for foreground-*/
+/*	background: separation;*/ 
+	color: #fffe8c; 						/* make text color white */
+	font: LibreFranklin;
 }
 
-.looping-background-video video{
+.looping-background-video img{
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	background-position:center;
+	background-size: cover;
 	transform: translate(-50%, -50%);
-	width: auto;
-	height: 100vh;
+
+	width: 100%;
+	height: auto;
 	z-index: -100;
-	@media (min-aspect-ratio:16/9){
+/*	@media (min-aspect-ratio:16/9){
 		width: 100vw;
 		height: auto;
-	}
+	}*/
 }
+
 
 
 /** Sticky for scrollytelling layout **/
 [data-sticky-graphic] {
 	top: 35%;
+}
+
+.tab { margin-left: 80px; }
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/zoomcall.png");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  	overflow: hidden;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }

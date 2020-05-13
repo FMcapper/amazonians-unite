@@ -4,8 +4,8 @@
 
 
 // Change default fonts for various font styles
-$font-family-sans-serif:  Lato, "Helvetica Neue", Arial, sans-serif !default;
-$font-family-serif:       "Crimson Text", "Times New Roman", Times, serif !default;
+$font-family-sans-serif:  LibreFranklin, Lato, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif:       LibreFranklin, "Crimson Text", "Times New Roman", Times, serif !default;
 $font-family-monospace:   "Ubuntu Mono", Menlo, Monaco, Consolas, "Courier New", monospace !default;
 
 
@@ -19,7 +19,7 @@ $text-color: #000;
 
 
 //Adjust headings styles
-$headings-font-family: 'Crimson Text', Georgia, 'Times New Roman', serif;
+$headings-font-family: LibreFranklin, 'Crimson Text', Georgia, 'Times New Roman', serif;
 $headings-font-weight: 400;
 $headings-color: #000;
 

@@ -1,13 +1,13 @@
 
 // Configure the settings for the player here:
 var song = {
-  "show": "",
-  "title": "Test title",
-  "date": "Jan. 10, 1980",
-  "url": "../assets/audio_example.mp3",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis id consectetur purus ut faucibus pulvinar elementum integer.",
-  "duration": "0:00", 
-  "cover_art_url": ""
+  "show": "KQED's California Report",
+  "title": "Amazon’s Warehouse Workers Worry About Infection",
+  "date": "Apr. 2, 2020",
+  "url": "../assets/warehouse_workers.mp3",
+  "description": "Amazon warehouse employees who package everything from pasta to toilet paper say the e-commerce giant isn’t doing enough to protect them from COVID-19. Workers at a warehouse in Riverside County are staying home and have signed a petition demanding their health be taken seriously.",
+  "duration": "3:14", 
+  "cover_art_url": "assets/cal_report.png"
 }
 
 Amplitude.init(

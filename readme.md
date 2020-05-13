@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 Multimedia 2020 Web Template
 ============
 
