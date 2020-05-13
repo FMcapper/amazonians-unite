@@ -4,7 +4,7 @@ var song = {
   "show": "KQED's California Report",
   "title": "Amazon’s Warehouse Workers Worry About Infection",
   "date": "Apr. 2, 2020",
-  "url": "../assets/warehouse_workers.mp3",
+  "url": "https://fmcapper.github.io/amazonians-unite/assets/warehouse_workers.mp3",
   "description": "Amazon warehouse employees who package everything from pasta to toilet paper say the e-commerce giant isn’t doing enough to protect them from COVID-19. Workers at a warehouse in Riverside County are staying home and have signed a petition demanding their health be taken seriously.",
   "duration": "3:14", 
   "cover_art_url": "assets/cal_report.png"
